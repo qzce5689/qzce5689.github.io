@@ -7,19 +7,4 @@
             <p>1.需識別化欄位為"學號"，完成後會更改為"系統識別碼"</p>
             <p>2.學號必須放在第一欄</p>
             <p>3.一次只處理一個工作表</p>
-            <p></p>
-            <form method="post" enctype="multipart/form-data">
-                <div style="position:relative;left:10px; top:2px; width: 243px; height: 21px;">
-                    <input type="file" asp-for="Upload" />
-                    <p><p>
-                        <input asp-page-handler="Upload" class="btn btn-info btn-outline-success text-white" type="submit" value="系統識別化" />
-                </div>
-                <br />
-            </form>
-        </div>
-    </content>
 
-
-    <content>
-        沒有系統識別化的權限，請向相關單位申請
-    </content>
